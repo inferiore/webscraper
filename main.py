@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def _news_scraper(key):
-    host = config()e["news_sites"][key]['url']
+    host = config()["news_sites"][key]['url']
     print(host)
     logging.info(f'scrap to %s',(key))
 
