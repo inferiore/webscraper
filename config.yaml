@@ -1,5 +1,10 @@
 news_sites:
   eluniversal:
     url: http://eluniversal.com.co
+    queries:
+
+
   eltiempo:
     url: http://eltiempo.com
+    queries:
+      home_page_articles_link: '.title-container a'
