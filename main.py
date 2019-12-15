@@ -6,7 +6,6 @@ logging.basicConfig(level=logging.INFO)
 
 def _news_scraper(key):
     host = config()["news_sites"][key]['url']
-    print(host)
     logging.info(f'scrap to %s',(key))
 
 if __name__ == "__main__":
